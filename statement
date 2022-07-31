@@ -1,0 +1,25 @@
+A bank contains 2 kinds of accounts for customers, once called as "savings account" and the other as "current account". 
+The savings account provides compound interest and withdrawal facilities but no cheque book facility.
+The current account provides cheque book facility but no interest.
+Current Account holders should also maintain a minimum balance and if the balance falls below that level, a service charge is imposed.
+
+A "CLASS ACCOUNT" is created that stores customer name, account number and type of account.
+From this "CLASS CURRENT_ACCOUNT" and "CLASS SAVINGS_ACCOUNT" were derived to make them more specific to their requirements.
+
+Necessary member functions were included in order to achieve the following tasks:
+
+1. Accept deposit from a customer and update the balance.
+2. Display the balance.
+3. Compute and deposit interest.
+4. Permit withdrawal and update the balance.
+5. Check for the minimum balance, imposed penalty, necessary, and update the balance.
+
+No constructors were used. Member functions were used to initialize the class memebers.
+
+THEORY:
+
+One of the most important concepts in Object Oriented Programming is that of inheritance.
+Inheritance allows us to define a class in terms of another class, which makes it easier to create and maintain an application. 
+It is a procedure by which one class can acquire the property of another class.
+The main class whose property is acquired is known as the "BASE CLASS".
+The another class which acquires the proerty of Base Class is known as "DERIVED CLASS".
